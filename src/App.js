@@ -9,6 +9,9 @@ import { Provider } from 'react-redux';
 import { store } from './rtk-thunk/store';
 import A4 from './axious/A4';
 import Form from './form/Form';
+import S1 from './simple-todo/S1';
+import S2 from './simple-todo/S2';
+import S3 from './simple-todo/S3';
 
 
 function App() {
@@ -29,9 +32,15 @@ function App() {
     
   //    </Provider>
   // </div>
-    <div>
-      <Form/>
-    </div>
+    // <div>
+    //   <Form/>
+    // </div>
+    <>
+    
+    {/* <S1/>
+    <S2/> */}
+    <S3/>
+    </>
 
   );
 }
