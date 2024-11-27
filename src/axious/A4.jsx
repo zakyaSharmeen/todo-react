@@ -1,3 +1,10 @@
+
+// Method	Purpose	     Use Case
+// GET	   Fetch data	       Get users list
+// POST  Create new data	    Add a new user
+// PUT	 Update entire resource	Update user details
+// DELETE	Remove a resource	Delete a user
+
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 

@@ -147,6 +147,7 @@ function A3() {
 
 
     // --------------------------
+    // fetch data from the server---Get
     const api= "https://jsonplaceholder.typicode.com/posts";
     const fetchApi = async () =>{
         const response = await axios.get(api);
@@ -160,6 +161,7 @@ function A3() {
     // ---------------------------------
 
     // ------------------------
+    // create a new data
     const createPost = async (e) =>{
         e.preventDefault()
         const newPost = {title}

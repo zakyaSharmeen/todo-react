@@ -12,34 +12,28 @@ import Form from './form/Form';
 import S1 from './simple-todo/S1';
 import S2 from './simple-todo/S2';
 import S3 from './simple-todo/S3';
+import A5 from './axious/A5';
+import A6 from './axious/A6';
 
 
 function App() {
   return (
-    // <div className="App">
-    //  {/* <S1/>
-    //  <A1/> */}
-    //  {/* <A3/> */}
-    //  <A4/>
-    // </div>
+  
 
   // <div className='App'>
   //   <Provider store={store}>
   //     <Post/>
-    
-      
-
-    
   //    </Provider>
   // </div>
-    // <div>
-    //   <Form/>
-    // </div>
+
+   
     <>
     
-    {/* <S1/>
-    <S2/> */}
-    <S3/>
+    
+    <A4/>
+    <A5/>
+    <A6/>
+
     </>
 
   );
